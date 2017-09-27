@@ -10,29 +10,53 @@ in a readable format, and pauses before the console exits so the user can actual
 what is displayed. 
 
 Below is a template to start your program:
+
 /*
+
 Your Name - Date Period 
+
 Assignment Name : *
+
 Brief Description of the Assignment
+
 */
+
 // Libraries
+
 #include <iostream> // gives access to cin, cout, endl, <<, >>, boolalpha, noboolalpha
+	
 #include <conio.h> // gives access to _kbhit() and _getch() for pause()
+
 // Namespaces
+
 using namespace std; //*
+
 // Functions() 
+
 void pause() {
+
 	cout << "Press any key to continue . . .";
+	
 	while (!_kbhit());
+	
 	_getch();
+	
 	cout << '\n';	
+	
 }
+
 // MAIN
+
 void main() { 
+
 	// Define and Assign your variable(s)
+	
 	// Display Text
+	
 	pause(); // pauses to see the displayed text
+	
 } 
+
 How to Start a New Project : 
 Open Visual Studios 2015 (Not Blend)                                                                                                               Click File and Navigate to New > Project,  select that or Press Ctrl+Shift+N
 Navigate through Templates to Visual C++, choose General from the drop downs
