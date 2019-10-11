@@ -58,6 +58,7 @@ void main() {
 } 
 
 How to Start a New Project : 
+//If you are using 2015 Visual Studios
 Open Visual Studios 2015 (Not Blend)                                                                                                               Click File and Navigate to New > Project,  select that or Press Ctrl+Shift+N
 Navigate through Templates to Visual C++, choose General from the drop downs
 or until you can see “Empty Project” from that selection.
@@ -74,3 +75,5 @@ Ctrl+S saves the single file your working on, Ctrl+Shift+S saves all
 files in the open project. Remember that when you Debug or Compile 
 sometimes you are unable to go back and undo previous edits. Make sure 
 you keep up with your changes. 
+
+//good one teaser303
